@@ -1,5 +1,6 @@
 payload: 
- - 'spring.io'
- - 'bing'
- - 'microsoft'
- - 'arxivxplorer'
+ - '+.spring.io'
+ - '+.bing'
+ - '+.microsoft'
+ - '+.arxivxplorer'
+ - '+.chatpdf.com'
