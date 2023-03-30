@@ -1,2 +1,5 @@
 payload: 
  - 'spring.io'
+ - 'bing'
+ - 'microsoft'
+ - 'arxivxplorer'
