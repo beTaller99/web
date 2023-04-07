@@ -15,5 +15,29 @@
     <a href="./层次分析法实例与步骤.pdf">层次分析法实例与步骤</a>
 
 </body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+var config = {
+  method: 'get',
+maxBodyLength: Infinity,
+  url: 'https://github.com/beTaller99/testWebsite',
+//   url: 'https://www.baidu.com',
+  headers: { 
+    'Content-Type': 'application/json',
+    'Cookie': '_gh_sess=bgR5rICtNFpfEketOjvSRZHzGNV4t61J41a0bVxSG4SeKURdhc9wb46qt9V9SR%2F%2B%2F8fRhqEFczvAzx4bgt7HPOQV1HWPzUpRE2mQ51t7wxVAMSWOiW2XPklcxVxe66hWvX7B5aS1I%2BG6P%2Bb%2B6%2FV1OlJ07lxI%2FfxVeeOXYsL%2F2WhGYtXsu2WGcD9BCVThbEaOJfwhHWriH%2Foq6%2Fb1gl2wecds%2FdUc2xDHesboZ8KepEiSBtQ%2BVftMfOhcUWnfT5LiWlHeMWwlZc8EQZkV%2B4rH9Q%3D%3D--7nS5Bu%2BQFxFB36TM--8RpXFEHO5LBPsI3Bv0y7XA%3D%3D; _octo=GH1.1.2100531548.1680854222; logged_in=no'
+  }
+};
+
+axios(config)
+.then(function (response) {
+  console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+  console.log(error);
+});
+
+
+</script>
 </html>
 
