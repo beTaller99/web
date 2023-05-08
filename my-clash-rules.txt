@@ -1,7 +1,0 @@
-payload: 
- - '+.spring.io'
- - '+.bing.com'
- - '+.microsoft.com'
- - '+.arxivxplorer.+'
- - '+.chatpdf.com'
- - '+api.deno.+'
