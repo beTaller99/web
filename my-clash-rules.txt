@@ -4,3 +4,4 @@ payload:
  - '+.microsoft.com'
  - '+.arxivxplorer.+'
  - '+.chatpdf.com'
+ - '+.api.deno.+'
